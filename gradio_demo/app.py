@@ -496,7 +496,7 @@ def main(pretrained_model_name_or_path="wangqixun/YamerMIX_v8", enable_lcm_arg=F
         )
 
         gr.Markdown(article)
-
+    print(done)
     demo.launch(share=True)
 
 
